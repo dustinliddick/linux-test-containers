@@ -1,0 +1,74 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Logs and runtime files
+*.log
+*.pid
+*.bak
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Test output
+.tox/
+.nox/
+coverage.xml
+htmlcov/
+.pytest_cache/
+
+# MyPy and Pylint
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# PyInstaller
+*.spec
+
+# macOS clutter
+.AppleDouble
+.LSOverride
+
+# Custom and Claude-specific files
+.claude
+CLAUDE.md
+
+# Git credential/storage info
+.git-credentials
+.gitignore~
+
+# Ignore backup files
+*~
+*.bak
+*.tmp
+
+# Ignore local Docker and Podman resources (if applicable)
+*.tar
+*.img
+*.lock
+*.sock
