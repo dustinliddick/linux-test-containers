@@ -11,7 +11,4 @@ RUN apk update && \
         util-linux && \
     rm -rf /var/cache/apk/*
 
-RUN rc-update add syslog boot && \
-    rc-update add networking boot
-
-CMD ["/sbin/init"]
+CMD ["/bin/bash"]
